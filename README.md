@@ -34,7 +34,7 @@ To run this pipeline, you need Python 3.8+ installed on your machine.
 
 Clone the repository:
 
-git clone [https://github.com/yourusername/nepse-quant-bot.git](https://github.com/yourusername/Nepal-Market-Analysis.git)
+git clone (https://github.com/yourusername/Nepal-Market-Analysis.git)
 cd nepse-quant-bot
 
 
