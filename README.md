@@ -1,4 +1,4 @@
-NEPSE Quantitative Trading Bot 📈
+Nepal Market Analysis (NEPSE)
 
 An automated quantitative trading data pipeline and machine learning predictor for the Nepal Stock Exchange (NEPSE). This project fetches live market data, engineers technical indicators, and trains a baseline classification model to predict the next day's market direction.
 
@@ -34,7 +34,7 @@ To run this pipeline, you need Python 3.8+ installed on your machine.
 
 Clone the repository:
 
-git clone [https://github.com/yourusername/nepse-quant-bot.git](https://github.com/yourusername/nepse-quant-bot.git)
+git clone [https://github.com/yourusername/nepse-quant-bot.git](https://github.com/yourusername/Nepal-Market-Analysis.git)
 cd nepse-quant-bot
 
 
