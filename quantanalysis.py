@@ -1,6 +1,5 @@
 import pandas as pd
 
-print("Loading NEPSE Quant Analysis Module...\n")
 
 # 1. Load the data you scraped earlier
 try:
@@ -36,8 +35,8 @@ todays_score = daily_mood['Average_Mood'].iloc[0]
 
 print("\n ALGORITHMIC TRADING SIGNAL:")
 if todays_score > 0.15:
-    print(f"BULLISH (Score: {todays_score:.2f}) -> Market sentiment is highly positive. Expect NEPSE to rise.")
+    print(f"BULLISH (Score: {todays_score:.2f}) -> Positive market sentimient. Nepse could rise.")
 elif todays_score < -0.15:
-    print(f"BEARISH (Score: {todays_score:.2f}) -> Market sentiment is fearful. Expect NEPSE volatility or drop.")
+    print(f"BEARISH (Score: {todays_score:.2f}) -> Negative market sentiment. Nepse could be volatile and fall.")
 else:
-    print(f"NEUTRAL (Score: {todays_score:.2f}) -> Market is undecided. No clear trading edge today.")
+    print(f"NEUTRAL (Score: {todays_score:.2f}) -> Undecided. No clear news.")
